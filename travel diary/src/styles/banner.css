@@ -1,0 +1,21 @@
+.banner {
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background-color: #f55a5a;
+}
+
+img {
+  margin-right: 5px;
+  height: 30px;
+}
+.banner-tag {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}

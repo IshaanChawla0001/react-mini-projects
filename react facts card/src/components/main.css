@@ -1,0 +1,37 @@
+.main {
+  background-color: #282d35;
+  background-image: url("../assets/react-icon-large.png");
+  width: 550px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  /* or
+  background-position: right center%;
+   */
+  display: flex;
+  flex-direction: column;
+  padding: 57px 27px;
+  color: white;
+  /* justify-content: space-between; */
+}
+
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-fact {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-fact > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-fact > li::marker {
+  color: #61dafb;
+  font-size: 1.4em;
+}
